@@ -10,12 +10,6 @@ func numberOfSubstrings(s string) int {
 	hashMap := make(map[string]int)
 
 	for j < len(s) {
-		// _, found := hashMap[string(s[j])]
-		// if found {
-		// 	hashMap[string(s[j])]++
-		// } else {
-		// 	hashMap[string(s[j])] = 1
-		// }
 
 		hashMap[string(s[j])]++
 
